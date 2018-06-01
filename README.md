@@ -18,38 +18,25 @@ done with Jupyter notebooks.
 
 # Filestructure
 
+```
 .
 ├── data
-
 │   ├── clean
-
 │   └── raw
-
 ├── docs
-
 │   ├── papers
-
 │   └── README.md
-
 ├── notebooks
-
 │   ├── 1_Data cleaning.ipynb
-
 │   ├── 2a_Analysis.ipynb
-
 │   ├── 2b_More analysis.ipynb
-
 │   ├── 3_Project summary.ipynb
-
 │   ├── figures
-
 │   ├── outputs
-
 │   └── routines.py
-
 ├── README.md
-
 └── tex
+```
 
 ## `data`
 
