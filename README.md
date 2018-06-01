@@ -20,15 +20,19 @@ done with Jupyter notebooks.
 
 .
 ├── data
+│   ├── clean
+│   └── raw
 ├── docs
 │   ├── papers
 │   └── README.md
-├── fs
 ├── notebooks
+│   ├── 1_Data cleaning.ipynb
+│   ├── 2a_Analysis.ipynb
+│   ├── 2b_More analysis.ipynb
+│   ├── 3_Project summary.ipynb
 │   ├── figures
 │   ├── outputs
-│   ├── routines.py
-│   └── Untitled.ipynb
+│   └── routines.py
 ├── README.md
 └── tex
 
@@ -58,4 +62,28 @@ this is where a majority of the documentation will fall into.
 
 ## `notebooks`
 
-This is where the fun is!
+This is the folder where most of the work will be done. The practice here is to
+use a new notebook for each step of the analysis: one to clean/preprocess the
+data, one for each analysis procedure, and one to summarize the project. I tend
+to also have separate notebooks for generating figures for presentations and
+for publications.
+
+Also in this directory are two empty folders, `figures` and `outputs`. The
+figures folder is where the output of all the plots should go (if they're
+saved) and outputs stashes the analysis results, in a way that subsequent
+notebooks can easily load the results in and do further analysis/plotting.
+
+It's also probably good practice to name each figure/plot not only something
+descriptive, but also give reference to the notebook that produced it.
+
+Finally, I have a file called `routines.py` as a dummy Python module. This (or
+any number of module files) should be used to keep code that are shared across
+notebooks. In the interest of making the notebooks as informative as possible,
+I think code that is unique to the notebook should be kept in the notebook.
+
+## `tex`
+
+Where the write-up/manuscript preparation occurs. I use LaTeX for writing
+papers, and so in a TeX document you can simply target the source path for
+graphics to be within `notebooks/figures/`.
+
