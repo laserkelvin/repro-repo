@@ -18,24 +18,19 @@ done with Jupyter notebooks.
 
 # Filestructure
 
-``
-|--- data/
-|--- docs/
-|---\
-    |--- papers/
-    |--- README.md
-|--- notebooks/
-|---\
-    |--- figures/
-    |--- outputs/
-    |--- 1_Cleaning.ipynb
-    |--- 2_Analysis routine.ipynb
-    |--- 3a_Figures for publication.ipynb
-    |--- 3b_Figures for presentations.ipynb
-    |--- 4_Summary.ipynb
-    |--- routines.py
-|--- tex
-``
+.
+├── data
+├── docs
+│   ├── papers
+│   └── README.md
+├── fs
+├── notebooks
+│   ├── figures
+│   ├── outputs
+│   ├── routines.py
+│   └── Untitled.ipynb
+├── README.md
+└── tex
 
 ## `data`
 
