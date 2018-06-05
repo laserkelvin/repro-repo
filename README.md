@@ -14,7 +14,15 @@ and everytime, minimizing change between research projects. Second, the use of
 
 The file structure is set to be non-field specific, and could be used for any
 kind of research project. The only real requirement is that the analysis is
-done with Jupyter notebooks.
+done with Jupyter notebooks. The notebooks are ideally easily portable - if the
+project is on `Github`, things like Binder will allow you to share interactive
+notebooks to collaborators and referees.
+
+## Extra reading
+
+https://www.nature.com/news/1-500-scientists-lift-the-lid-on-reproducibility-1.19970
+
+https://mybinder.org/
 
 # Filestructure
 
@@ -98,9 +106,8 @@ A typical workflow would be as follows:
 3. Perform analysis on cleaned data, output results to `notebooks/outputs/`
 4. Make figures based on analyzed data, save plots to `notebooks/figures/`
 5. Project is complete, summarize in notebook
-6. Write the paper!
-7. ???
-8. Profit.
+6. Share notebooks with collaborators, e.g. Binder
+7. Write the paper!
 
 It is probably useful to make frequent `git` commits. Natural points would be
 between analysis steps, when you decide you want to analyze the data
